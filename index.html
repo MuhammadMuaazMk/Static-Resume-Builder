@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="resume-header">
+        <nav>
+            <h2>Static Resume Builder</h2>
+            <ul>
+                <li><a href="#personal-info">Personal Information</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="resume-container">
+        <section id="personal-info" class="resume-section">
+            <h2>Personal Information</h2>
+            <div class="personal-info-content">
+                <div class="profile-image">
+                    <img src="mm.jpg" alt="Profile Picture">
+                </div>
+                <div class="contact-details">
+                    <h3>Muhammad Muaaz</h3>
+                    <p>Email: muhammadmuaaz@gmail.com</p>
+                    <p>Phone: +9234567890</p>
+                    <p>Location: Karachi, Pakistan</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="education" class="resume-section">
+            <h2>Education</h2>
+            <button class="toggle-btn">Hide</button>
+
+            <div class="section-content">
+                <div class="education-entry">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>Bahria University Karachi</p>
+                    <p>2020 - 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="resume-section">
+            <h2>Skills</h2>
+            <button class="toggle-btn">Hide</button>
+            <div class="section-content">
+                <ul class="skills-list">
+                    <li>HTML5/CSS3</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Three Js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+
+        </section>
+
+
+        <section id="work-experience" class="resume-section">
+            <h2>Work Experience</h2>
+            <button class="toggle-btn">Hide</button>
+            <div class=" section-content">
+                <div class="work-entry">
+                    <h3>Web Developer</h3>
+                    <p>Systems Limited</p>
+                    <p>2023 - 2024</p>
+                    <ul>
+                        <li>Developed and maintained web applications</li>
+                        <li>Collaborated with cross-functional teams</li>
+                        <li>Implemented responsive design principles</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
